@@ -1,0 +1,47 @@
+@use "./style/button.scss";
+
+
+/* ==============================
+   RESET
+================================= */
+
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+/* ==============================
+   PAGE
+================================= */
+
+html,
+body,
+#root {
+    width: 100%;
+
+    min-height: 100%;
+}
+
+
+/* ==============================
+   BODY
+================================= */
+
+body {
+    margin: 0;
+
+    background-color: #080808;
+
+    color: #ffffff;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+}

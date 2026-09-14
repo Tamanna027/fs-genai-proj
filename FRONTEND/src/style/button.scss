@@ -1,0 +1,17 @@
+.button {
+    border: none;
+
+    cursor: pointer;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    transition: all 0.2s ease;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+}
