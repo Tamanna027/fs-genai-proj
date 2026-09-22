@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { useInterview } from "../hooks/useInterview";
-import "./Interview.scss";
+import "../styles/Interview.scss";
 
 // --- Sub-components
 
