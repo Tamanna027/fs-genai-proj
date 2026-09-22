@@ -21,12 +21,11 @@ export const generateInterviewReport = async ({ jobDescription, selfDescription,
 };
 
 export const getAllInterviewReports = async () => {
-  const response = await api.get("/api/interview");
-
-  return response.data;
+    const response = await api.get("/api/interview/report");
+    return response.data;
 };
 
 export const getInterviewReportById = async (interviewId) => {
-  const response = await api.get(`/api/interview/${interviewId}`);
-  return response.data;
+    const response = await api.get(`/api/interview/report/${interviewId}`);
+    return response.data;
 };
